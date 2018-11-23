@@ -1,0 +1,5 @@
+﻿https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition
+https://www.codeproject.com/Articles/1184757/HTML-Geolocation
+https://www.codeproject.com/Articles/347732/Cool-HTML-Geolocation-Ideas
+https://mycurrentlocation.net/
+

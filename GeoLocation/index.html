@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Working with geo location</title>
+
+    <script src="includes/jquery/query-1.11.3.min.js"></script>
+    <script src="includes/scripts/main.js"></script>
+    <script src="includes/scripts/popper.js"></script>
+
+    <link href="includes/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="includes/bootstrap3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="includes/bootstrap3.3.5/js/bootstrap.min.js"></script>
+
+    <link href="includes/bootstrap3.3.5/css/bootstrap-dialog.min.css" rel="stylesheet" />
+    <script src="includes/bootstrap3.3.5/js/bootstrap-dialog.min.js"></script>
+
+
+    <script src="includes/scripts/geoLocation.js"></script>
+    <link href="includes/styles/main.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="alert alert-primary" role="alert">
+        Example for working with geo location
+    </div>
+
+    <div class="container-fluid">
+
+        <form>
+            <div class="form-group">
+                <label for="longtitude">Longtitude</label>
+                <input type="text" class="form-control  form-control-sm" id="longtitude" />
+            </div>
+
+            <div class="form-group">
+                <label for="latitude">Latitude</label>
+                <input type="text" class="form-control  form-control-sm" id="latitude" />
+            </div>
+
+            <div class="form-group">
+                <label for="response">Response</label>
+                <input type="text" class="form-control  form-control-sm" id="response" />
+            </div>
+
+            <div class="form-group">
+                <label for="responseCode">Response code</label>
+                <input type="text" class="form-control  form-control-sm" id="responseCode" />
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <button id="btnGeoLocation" class="btn btn-primary custom">Get geo response</button><br>
+        <br />
+        <button id="btnGeoLocationManual" class="btn btn-primary custom">Start Watch</button><br>
+        <br />
+        <button id="btnGeoLocationManualStop" class="btn btn-primary  custom">Stop Watching</button><br>
+    </div>
+
+    <!-- div to write lat/long to for watchPosition via middle button above -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 p-5 ">
+                <div id="watchLocation"></div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid border-top">
+    <h3>Resources</h3> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API" target="_blank" >Geolocation API</a><br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#Browser_compatibility" target="_blank">Browser compatibilitySection</a><br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/clearWatch" target="_blank">Geolocation.clearWatch()</a><br>
+    <a href="http://tool.oschina.net/uploads/apidocs/phonegap1.9/cordova_geolocation_geolocation.md.html" target="_blank">Apache Cordova Documentation</a><br>
+    <a href="https://social.technet.microsoft.com/wiki/contents/articles/28269.c-getting-longitude-latitude-using-geolocation-api.aspx" target="_blank">TechNet C#: Getting longitude, latitude using geolocation API</a>
+</div>
+</body>
+</html>
