@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 ##### Execute function
 
-```
+```javascript
 var execute = function () {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(getCurrentLocation, handleLocationError, $geoLocation._positionOptions);
