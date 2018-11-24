@@ -25,5 +25,5 @@ $(document).ready(function () {
 }();
 ```
 
-![Screenshot from article](http://social.technet.microsoft.com/wiki/cfs-file.ashx/__key/communityserver-wikis-components-files/00-00-00-00-05/8308.Title.png)
+
 
