@@ -25,5 +25,20 @@ $(document).ready(function () {
 }();
 ```
 
+##### Execute function
 
+```
+var execute = function () {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(getCurrentLocation, handleLocationError, $geoLocation._positionOptions);
+        this.response = 'Y';
+        this.responseText = responseCodes.get($geoLocation.response);
 
+    } else {
+        document.getElementById("watchLocation").innerHTML = ("<strong>This browser does not support geolocation</strong>");
+    }
+
+    return;
+
+};
+```
