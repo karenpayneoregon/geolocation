@@ -6,7 +6,7 @@ The code presented provided easy to use methods to obtain geolocation informatio
 
 Below shows the basics for getting started in your web application.
 
-Geolocation in the sample below passes options for [navigator.geolocation.getCurrentPosition]() followed by calling Execute which prompts for the current location or if cached gets the cached data.
+Geolocation in the sample below passes options for [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition) followed by calling Execute which prompts for the current location or if cached gets the cached data.
 ```javascript
 $(document).ready(function () {
 
