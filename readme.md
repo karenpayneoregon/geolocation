@@ -1,6 +1,6 @@
 # TechNet Wiki November 2018 article
 
-[jQuery – HTML5 Geolocation custom class](https://social.technet.microsoft.com/wiki/contents/articles/52193.jquery-html5-geolocation-custom-class.aspx)
+[Visual Studio – HTML5 Geolocation custom class](https://social.technet.microsoft.com/wiki/contents/articles/52193.jquery-html5-geolocation-custom-class.aspx)
 
 The code presented provided easy to use methods to obtain geolocation information from a web site/web application. For details click on the link above.
 
